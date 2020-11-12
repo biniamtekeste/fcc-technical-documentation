@@ -52,18 +52,29 @@ font-family: 'Xanh Mono', monospace; */
   .wrapper {
       display: flex;
       max-width: 1400px;
+      justify-content: space-between;
   }
 
   /* side bar */
   .main-nav {
-      width: 50%;
-      overflow: scroll;
+      /* overflow: scroll; */
       height: 600px;
+      /* display: block; */
+      position: fixed;
+      width: 300px;
+      min-width: 290px;
+      top: 0;
+      left: 0;
 }
 
 .main-nav header {
     font-family: var(--tertiary-font-family) ;
+    display: block;
     /* position: fixed; */
+    font-size: 1.rem;
+    background-color: #65717D;
+    height: 80px;
+    padding: 10px;
 }
 
 .main-nav li {
@@ -71,7 +82,36 @@ font-family: 'Xanh Mono', monospace; */
     border-top: 1px solid var(--black-color);
 }
 
+.main-nav ul {
+  overflow: scroll;
+  height: 700px;
+  display: block;
+  
+}
 
+.main-doc {
+  margin-left: 310px;
+  padding: 1rem;
+}
+
+.main-section header {
+  font: 1.8em sans-serif;
+  margin-top: 2rem;
+}
+
+.main-section header li {
+  margin-left: 400px;
+  background-color: #65717D;
+}
+
+.main-doc li{
+  background-color: #65717D;
+  margin-left: 20px;
+}
+
+code {
+  margin: 0 auto;
+}
 
 
  
