@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Roboto+Condensed:wght@300&family=Xanh+Mono:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FCC: Technical Documentation Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav id="navbar" class="main-nav">
+        <header>C Programming Documentation</header>
+        <ul>
+          <li><a href="#introduction" class="nav-link">Introduction</a></li>
+          <li><a href="#why-learn-c" class="nav-link">Why Learn C?</a></li>
+          <li><a href="#c-facts" class="nav-link">C Facts</a></li>
+          <li><a href="#hello-world" class="nav-link">Hello World</a></li>
+          <li>
+            <a href="#program-structure" class="nav-link">Program Structure</a>
+          </li>
+          <li><a href="#basic-syntax" class="nav-link">Basic Syntax</a></li>
+          <li><a href="#data-types" class="nav-link">Data Types</a></li>
+          <li><a href="#variables" class="nav-link">Variables</a></li>
+          <li><a href="#constants" class="nav-link">Constants</a></li>
+          <li><a href="#loops" class="nav-link">Loops</a></li>
+          <li><a href="#functions" class="nav-link">Functions</a></li>
+          <li><a href="#arrays" class="nav-link">Arrays</a></li>
+          <li><a href="#operators" class="nav-link">Operators</a></li>
+          <li>
+            <a href="#decision-making" class="nav-link">Decision Making</a>
+          </li>
+          <li><a href="#scope-rules" class="nav-link">Scope Rules</a></li>
+          <li><a href="#pointers" class="nav-link">Pointers</a></li>
+          <li><a href="#strings" class="nav-link">Strings</a></li>
+          <li><a href="#structures" class="nav-link">Structures</a></li>
+          <li><a href="#unions" class="nav-link">Unions</a></li>
+          <li><a href="#input-output" class="nav-link">Input Output</a></li>
+        </ul>
+      </nav>
+      <main id="main-doc">
+        <section class="main-section">
+          <header id="introduction">Introduction</header>
+          <p>
+            C programming is a general-purpose, procedural, imperative computer
+            programming language developed in 1972 by Dennis M. Ritchie at the
+            Bell Telephone Laboratories to develop the UNIX operating system. C
+            is the most widely used computer language. It keeps fluctuating at
+            number one scale of popularity along with Java programming language,
+            which is also equally popular and most widely used among modern
+            software programmers.
+          </p>
+        </section>
+
+        <section class="main-section">
+          <header id="why-learn-c">Why Learn C?</header>
+          <p>
+            C programming language is a MUST for students and working
+            professionals to become a great Software Engineer specially when
+            they are working in Software Development Domain. I will list down
+            some of the key advantages of learning C Programming:
+          </p>
+          <li>Easy to learn</li>
+          <li>Structured language</li>
+          <li>It produces efficient programs</li>
+          <li>It can handle low-level activities</li>
+          <li>It can be compiled on a variety of computer platforms</li>
+        </section>
+
+        <section class="main-section">
+          <header id="c-facts">C Facts</header>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            illum incidunt animi quibusdam dolorum necessitatibus natus tempora
+            hic deleniti, eos odio vero, illo amet aspernatur voluptas accusamus
+            nemo architecto ea quasi officiis tenetur. Exercitationem explicabo
+            nesciunt cum facere, quia unde.
+          </p>
+          <li>C was invented to write an operating system called UNIX.</li>
+          <li>
+            C is a successor of B language which was introduced around the early
+            1970s.
+          </li>
+          <li>
+            The language was formalized in 1988 by the American National
+            Standard Institute (ANSI).
+          </li>
+          <li>The UNIX OS was totally written in C.</li>
+          <li>
+            Today C is the most widely used and popular System Programming
+            Language.
+          </li>
+          <li>
+            Most of the state-of-the-art software have been implemented using C.
+          </li>
+        </section>
+        <section class="main-section">
+          <header id="hello-world">Hello World</header>
+          <p>
+            Just to give you a little excitement about C programming, I'm going
+            to give you a small conventional C Programming Hello World program,
+            You can try it using Demo link.
+          </p>
+          <code>
+            <pre>
+             #include &lt; studio.h &gt;
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               return 0;
+            </pre>
+            }
+          </code>
+        </section>
+
+        <section class="main-section">
+          <header id="program-structure">Program Structure</header>
+          <p>
+            Before we study the basic building blocks of the C programming
+            language, let us look at a bare minimum C program structure so that
+            we can take it as a reference in the upcoming chapters.
+          </p>
+          <p>A C program basically consists of the following parts −</p>
+          <li>Preprocessor commands</li>
+          <li>Functions</li>
+          <li>Variables</li>
+          <li>Statements and Expressions</li>
+          <li>Comments</li>
+          <code>
+            <pre>
+             #include &lt; studio.h &gt;
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="basic-syntax">Basic Syntax</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+             #include &lt; studio.h &gt;
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="data-types">Data Types</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+             #include &lt; studio.h &gt;
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="variables">Variables</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+             #include &lt; studio.h &gt;
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="constants">Constants</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+             #include &lt; studio.h &gt;
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="loops">Loops</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+             #include &lt; studio.h &gt;
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="functions">Functions</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+             #include &lt; studio.h &gt;
+            int main() {
+               /* my first program in C */
+               printf("Hello, World! \n");
+               return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="operators">Operators</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+              #include &lt; studio.h &gt;
+            int main() {
+                /* my first program in C */
+                printf("Hello, World! \n");
+                return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="decision-making">Decision Making</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+              #include &lt; studio.h &gt;
+            int main() {
+                /* my first program in C */
+                printf("Hello, World! \n");
+                return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="scope-rules">Scope Rules</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+              #include &lt; studio.h &gt;
+            int main() {
+                /* my first program in C */
+                printf("Hello, World! \n");
+                return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="pointers">Pointers</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+              #include &lt; studio.h &gt;
+            int main() {
+                /* my first program in C */
+                printf("Hello, World! \n");
+                return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="strings">Strings</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+              #include &lt; studio.h &gt;
+            int main() {
+                /* my first program in C */
+                printf("Hello, World! \n");
+                return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="structures">Structures</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+              #include &lt; studio.h &gt;
+            int main() {
+                /* my first program in C */
+                printf("Hello, World! \n");
+                return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        </section>
+        <section class="main-section">
+          <header id="unions">Unions</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+              #include &lt; studio.h &gt;
+            int main() {
+                /* my first program in C */
+                printf("Hello, World! \n");
+                return 0;
+            </pre>
+            }
+          </code>
+        </section>
+        <section class="main-section">
+          <header id="input-output">Input Output</header>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+            totam molestiae minima quasi quia voluptate aperiam, consequuntur
+            veniam animi quidem, dolor ab harum consequatur obcaecati!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+            veniam quae harum aspernatur repudiandae alias dolorum beatae.
+            Atque, veritatis facilis. −
+          </p>
+          <code>
+            <pre>
+              #include &lt; studio.h &gt;
+            int main() {
+                /* my first program in C */
+                printf("Hello, World! \n");
+                return 0;
+            </pre>
+            }
+          </code>
+        </section>
+      </main>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+  </body>
+</html>
