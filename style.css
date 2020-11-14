@@ -78,6 +78,12 @@ ul {
   height: 10%;
 
 }
+.main-nav a {
+  display: block;
+  padding: 1rem;
+  margin-left: 3.5rem;
+  height: 100%;
+}
 
 .main-nav ul {
   margin-top: 4.2rem;
@@ -92,7 +98,7 @@ ul {
   height: 90%;}
 
 .main-nav li {
-  padding: 1rem;
+  padding: 0;
   border-top: 1px solid var(--black-color);
 }
 
