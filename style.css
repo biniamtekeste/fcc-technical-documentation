@@ -59,31 +59,34 @@ ul {
 .main-nav {
   display: flex;
   flex-direction: column;
-  overflow: scroll;
   height: 100%;
-  /* display: block; */
   position: fixed;
   width: 300px;
   min-width: 290px;
   top: 0;
   left: 0;
+  border-right: var(--secondary-color) 2px solid;
 }
 
 .main-nav header {
   font-family: var(--tertiary-font-family);
-  /* display: block; */
   position: fixed;
   font-size: 1.rem;
   background-color: #65717d;
-  /* height: 80px; */
-  padding: 10px;
+  padding: 12px;
   margin-bottom: 2rem;
   height: 10%;
+
 }
 
 .main-nav ul {
-  margin-top: 4rem;
+  margin-top: 4.2rem;
   height: 85%;
+}
+.main-nav ul {
+  overflow: scroll;
+  height: 100%;
+  display: block;
 }
 .nav-link {
   height: 90%;}
@@ -93,11 +96,6 @@ ul {
   border-top: 1px solid var(--black-color);
 }
 
-.main-nav ul {
-  overflow: scroll;
-  height: 100%;
-  display: block;
-}
 
 .main-doc {
   margin-left: 310px;
