@@ -105,8 +105,8 @@ font-family: 'Xanh Mono', monospace; */
 }
 
 .main-doc li{
-  background-color: #65717D;
-  margin-left: 20px;
+  /* background-color: #65717D; */
+  margin-left: 30px;
 }
 
 code {
