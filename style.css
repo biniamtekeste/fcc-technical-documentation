@@ -71,12 +71,11 @@ ul {
 .main-nav header {
   font-family: var(--tertiary-font-family);
   position: fixed;
-  font-size: 1.rem;
+  font-size: 1rem;
   background-color: #65717d;
   padding: 12px;
   margin-bottom: 2rem;
   height: 10%;
-
 }
 .main-nav a {
   display: block;
@@ -95,13 +94,13 @@ ul {
   display: block;
 }
 .nav-link {
-  height: 90%;}
+  height: 90%;
+}
 
 .main-nav li {
   padding: 0;
   border-top: 1px solid var(--black-color);
 }
-
 
 .main-doc {
   margin-left: 310px;
@@ -125,4 +124,63 @@ ul {
 
 code {
   margin: 0 auto;
+}
+
+/* Mobile/Responsive */
+@media all and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    background-color: yellow;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    border-right: none;
+    align-items: center;
+    flex: 1;
+    border: solid red 2px;
+  }
+
+  .main-nav header {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-nav ul {
+    margin-top: 3rem;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: var(--primary-color);
+    text-align: center;
+  }
+
+  .main-doc {
+    margin-top: 20rem;
+    margin-left: 1rem;
+    margin: 20rem 2rem 5rem 2rem;
+  }
+
+  .main-nav a {
+    margin: 0 auto;
+  }
+
+  #Introduction::before {
+    display: block;
+    content: " ";
+    margin-top: 0;
+    height: 300px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  /* #Arrays::before {
+    display: block;
+    content: " ";
+    margin-top: 0;
+    height: 300px;
+    visibility: hidden;
+    pointer-events: auto;
+
+  } */
 }
