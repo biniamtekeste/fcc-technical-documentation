@@ -130,7 +130,6 @@ code {
 @media all and (max-width: 768px) {
   .wrapper {
     flex-direction: column;
-    background-color: yellow;
   }
 
   .main-nav {
@@ -140,7 +139,6 @@ code {
     border-right: none;
     align-items: center;
     flex: 1;
-    border: solid red 2px;
   }
 
   .main-nav header {
